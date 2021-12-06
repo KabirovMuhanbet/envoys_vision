@@ -1,0 +1,23 @@
+
+export const searchCurrency = [
+   {id: 1, item: "USD"},
+   {id: 2, item: "EUR"},
+   {id: 3, item: "CNY"},
+   {id: 4, item: "INR"},
+   {id: 5, item: "CAD"},
+   {id: 6, item: "GBP"},
+   {id: 7, item: "JPY"},
+   {id: 8, item: "RUB"},
+   {id: 9, item: "MXN"},
+   {id: 10, item: "CHF"},
+   {id: 11, item: "KRW"},
+   {id: 12, item: "TRY"},
+   {id: 13, item: "BRL"},
+   {id: 14, item: "SEK"},
+   {id: 15, item: "HKD"},
+   {id: 16, item: "ETH"},
+   {id: 17, item: "AUD"},
+   {id: 18, item: "NOK"},
+   {id: 19, item: "SGD"},
+   {id: 20, item: "BTC"},
+]

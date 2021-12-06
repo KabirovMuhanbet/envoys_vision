@@ -1,0 +1,80 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?oj1hil');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?oj1hil#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?oj1hil') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?oj1hil') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?oj1hil##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wallet {
+  &:before {
+    content: $icon-wallet; 
+  }
+}
+.icon-exchange1 {
+  &:before {
+    content: $icon-exchange1; 
+  }
+}
+.icon-arrow_up {
+  &:before {
+    content: $icon-arrow_up; 
+  }
+}
+.icon-arrow-down {
+  &:before {
+    content: $icon-arrow-down; 
+  }
+}
+.icon-company {
+  &:before {
+    content: $icon-company; 
+  }
+}
+.icon-exchange {
+  &:before {
+    content: $icon-exchange; 
+  }
+}
+.icon-gas {
+  &:before {
+    content: $icon-gas; 
+  }
+}
+.icon-profile {
+  &:before {
+    content: $icon-profile; 
+  }
+}
+.icon-settings {
+  &:before {
+    content: $icon-settings; 
+  }
+}
+.icon-trading {
+  &:before {
+    content: $icon-trading; 
+  }
+}
+
