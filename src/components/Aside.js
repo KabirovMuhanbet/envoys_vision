@@ -8,10 +8,10 @@ function Aside() {
       <div className="aside">
          <div className="aside__wrapper">
             <div className="aside__menu">
-               <a href="#"><img src={logo} className="logo" alt="" /></a>
+               <NavLink to="/"><img src={logo} className="logo" alt="" /></NavLink>
                <ul className="aside__list">
                   <li className="aside__list-item">
-                     <NavLink to="/profile" className="aside__list-link" activeclassname="active">
+                     <NavLink to="/profile" className="aside__list-link">
                         <span className="fonts icon-profile"></span>
                         <span>My page</span>
                      </NavLink>
